@@ -6,8 +6,8 @@ _dom=$@
 for d in $_dom
 do
 	_ip=$(host $d | grep 'has add' | head -1 | awk '{ print $4}')
-	[ "$_ip" == "" ] && { echo "Error: $d is not valid domain or dns error."; continue; }
-	echo "Getting information for domain: $d [ $_ip ]..."
+	[ "$_ip" == "" ] && { echo "Errors: $d is not a valid domain or dns Error found."; continue; }
+	echo "Trying to  Getting information for domain: $d [ $_ip ]..."
 	whois "$_ip" | egrep -w 'OrgName:|City:|Country:|OriginAS:|NetRange:'
 	echo ""
 done
