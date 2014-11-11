@@ -1,5 +1,5 @@
 #!/bin/bash
-
+#bipin added
 ##Create backup directory
 SRVR='AWAL-STAGING'
 mkdir -p /var/backup/$SRVR$(date +%d%m%Y)

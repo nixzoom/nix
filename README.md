@@ -1,5 +1,3 @@
 nix
 ===
-
-Bash Scripts
-Creating and Adding 
+Script for Backup the MySQL
