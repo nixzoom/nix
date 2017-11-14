@@ -20,3 +20,7 @@ This script is using for preventing the Deniel of Service Attack using IPtables.
 (5)os-ctl-backup.sh
 ===================
 This script is for backing up the Openstack Controller DB (MySQL) and /etc files. It will be saved with Current Data in /var/backup folder.
+
+(6)os-all-nodes.sh
+==================
+This script will take the backup of /etc of all nodes and archived in /var/backup of Fuel Master. Mirantis Openstack 6.1
