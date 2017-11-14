@@ -16,3 +16,6 @@ This script is using for getting the information about a domain. Its IPaddressm,
 (4)ddos.sh
 ==========
 This script is using for preventing the Deniel of Service Attack using IPtables. We can prevent the DDOS using a threshold level of connection
+
+(5)os-ctl-backup.sh
+This script is for backing up the Openstack Controller DB (MySQL) and /etc files. It will be saved with Current Data in /var/backup folder.
